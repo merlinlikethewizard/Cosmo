@@ -1,5 +1,5 @@
 # Cosmo.py
-This is a text based python game engine I started writing with my friend a while back. My goal was to make it fully modular, with each level file containing descriptions of the terrain, items, etc. I also implemented movable blocks, NPC chats, an inventory and... that's about it. Most of the code is in ```cosmo.py``` and ```cosmoObjects.py```.
+This is a text based python game engine I started writing with my friend a while back. It's just a proof of concept, not intended for actual use. My goal was to make it fully modular, with each level file containing descriptions of the terrain, items, etc. I also implemented movable blocks, NPC chats, an inventory and... that's about it. Most of the code is in ```cosmo.py``` and ```cosmoObjects.py```.
 
 ## Examples:
 ```
