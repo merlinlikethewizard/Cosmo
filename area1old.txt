@@ -1,0 +1,95 @@
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTT             TTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTT """"   "[[[[]]]"  ""          TTTTTTTTTTTTTTTT
+TTTTTTTTTTT              "[o[[]]]"      TTTTTT     TTTTTTTTTTTTT
+TTTTTTTTTT   TT          "[[[--]]"                     TTTTTTTTT
+TTTTTTTTTTTTTT               ..             TTTT    ""TTTTTTTTTT
+TTTTTTT                     ..        TT   TTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTT     "           ..         TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTT                     ..      TTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT         "         ..          TTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTT                    ..        TTT   TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT                   ..       TT       TTTTTTTTTTTTTTTTT
+TTTTTTT      TTTT           ..                   TTTTTTTTTTTTTTT
+TTTTTTTTTTTTTT             ..                     T TTTTTTTTTTTT
+TTTTTT  TTTTTTTT          ..         "              TTTTTTTTTTTT
+TTTTT    "  TTTTTT        ..                 "       TTTTTTTTTTT
+TTTTTT         TT          ..                         TTTTTTTTTT
+TTTTTTTT                    ..               ""   TTTTTTTTTTTTTT
+TTTTTTT""                    _            TTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT                  |O|         TTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTT      "                          "  TTTTTTTTTTTTTTTTTTT
+TTTTTTTT                                          TTTTTTTTTTTTTT
+TTTTTTTTT       T                              TTTTTTTTTTTTTTTTT
+TTTTTTTTTTT  TTTTTT        "           "          TTTTTTTTTTTTTT
+TTTTTTTTTTTTTTT"                               "TTTTTTTTTTTTTTTT
+TTTTTTTTTTTT                                  "TTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTT TT                            TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT"                             TTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTT"        "                        ""TTTTTTTTTTTTT
+TTTTTTTTTTTTTT                    "                ""   TTTTTTTT
+TTTTTTTTTTTT""                                                  
+TTTTTTTTTTTTTTTT   TTT               TTTTT      TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTT       """"TTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+<splitter>
+################################################################
+################################################################
+################################################################
+################################################################
+################################################################
+#######################             ############################
+################# FFFF   FHHHHHHHF  FF          ################
+###########              FH     HF      ######     #############
+##########   ##          FHHH11HHF                     #########
+##############               4P             ####    FF##########
+#######                     PP        ##   #####################
+###########     F           PP         #########################
+########                     PP      ###########################
+##########         F         PP          #######################
+#########                    PP        ###   ###################
+##########                   PP       ##       #################
+#######      ####           PP                   ###############
+##############             PP                     # ############
+######  ########          PP         F              ############
+#####    F  ######        PP                 F       ###########
+######         ##          PP                         ##########
+########                    PP               FF   ##############
+#######FF                                 ######################
+##########                   2          ########################
+#########      F                          F  ###################
+########                                          ##############
+#########       #                              #################
+###########  ######        F           F          ##############
+###############F                               F################
+############                                  F#################
+############## ##                            ###################
+################F                             ##################
+###############F        F                        FF#############
+##############                    F                FF   ########
+############FF                                                 3
+################   ###               #####      ################
+########################       FFFF#############################
+################################################################
+################################################################
+################################################################
+################################################################
+<splitter>
+{\
+' ':{'type':'NOTHING','name':'NOTHING','text':'There is nothing here.'},\
+'#':{'type':'BLOCK',  'name':'TREE',   'text':'This is a tree.'},\
+'H':{'type':'BLOCK',  'name':'HOUSE',  'text':'Your house. It is pretty and house-like.'},\
+'P':{'type':'DECO',   'name':'PATH',   'text':'A lovely pebble arrangement leading to your house.'},\
+'F':{'type':'DECO',   'name':'FERN',   'text':'You look at the fern and feel happy.'},\
+'1':{'type':'EXIT',   'name':'DOOR',   'text':'Your front door. Inside is your house.', 'warpto':'house1'},\
+'2':{'type':'OBJECT', 'name':'WELL',   'text':'A well.'},\
+'3':{'type':'EDGE',   'name':'NOTHING','text':'There is nothing here.', 'warpto':'area2',  'warpfrom':'area2'},\
+'4':{'type':'ENTER',  'name':'PATH',   'text':'A lovely pebble arrangement leading to your house.', 'warpfrom':'house1'},\
+}

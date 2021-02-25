@@ -1,0 +1,35 @@
+House
+<splitter>
+___________________________
+|                         |
+|                         |
+|                         |
+|       M                 |
+|                         |
+|                         |
+|                         |
+|                         |
+|              24         |
+--------------'13'---------
+<splitter>
+{\
+' ':{'type':'Block', 'name':'FLOOR',         'text':'There is nothing here.'},\
+'-':{'type':'Block', 'name':'WALL',          'text':'This is a wall.', 'solid':True},\
+'|':'-',\
+'_':'-',\
+'1':{'type':'Exit',   'name':'DOOR',          'text':'Your front door. Outside is the field.', 'warpTo':'area1', 'warpName':'house1Exit1', 'char':'='},\
+'2':{'type':'Enter',  'name':'enter1',       'text':'There is nothing here.', 'warpFrom':'area1Exit1'},\
+'3':{'type':'Exit',   'name':'DOOR',          'text':'Your front door. Outside is the field.', 'warpTo':'area1', 'warpName':'house1Exit2', 'char':'='},\
+'4':{'type':'Enter',  'name':'enter1',       'text':'There is nothing here.', 'warpFrom':'area1Exit2'},\
+"'":{'type':'Block',  'name':'DOORFRAME',     'text':'A doorframe. It glistens.', 'solid':True},\
+'M':{'type':'NPC',    'name':'MOM',           'text':'Your mom looks angry, as usual.', 'imageName':'mom', 'textNames':['momtext1', 'momtext2', 'momtext3', 'momtext4', 'momtext5', 'momtext6']},\
+}
+<splitter>
+{\
+'-':unichr(8254),\
+}
+<splitter>
+{\
+'lockX':False,\
+'lockY':False,\
+}

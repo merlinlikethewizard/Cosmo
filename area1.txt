@@ -1,0 +1,62 @@
+Field
+<splitter>
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTT             TTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTT """"   "[[[[]]]"  ""          TTTTTTTTTTTTTTTT
+TTTTTTTTTTT              "[o[[]]]"      TTTTTT     TTTTTTTTTTTTT
+TTTTTTTTTTi  TT          "[[[14]]"                     TTTTTTTTT
+TTTTTTTTTTTTTT               25             TTTT  j ""TTTTTTTTTT
+TTTTTTT                     ..        TT   TTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTT     "           ..         TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTT                     ..      TTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT         "         ..          TTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTT                    ..        TTT   TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT                   ..       TT       TTTTTTTTTTTTTTTTT
+TTTTTTTi     TTTT           ..                   TTTTTTTTTTTTTTT
+TTTTTTTTTTTTTT             ..                     T TTTTTTTTTTTT
+TTTTTT  TTTTTTTT          ..         "              TTTTTTTTTTTT
+TTTTT    "  TTTTTT        ..                 "       TTTTTTTTTTT
+TTTTTT         TT          ..                        iTTTTTTTTTT
+TTTTTTTT                    ..   d           ""   TTTTTTTTTTTTTT
+TTTTTTT""                    _            TTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT                  |O|         TTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTT      "                          "  TTTTTTTTTTTTTTTTTTT
+TTTTTTTTi                                         TTTTTTTTTTTTTT
+TTTTTTTTT       T                              TTTTTTTTTTTTTTTTT
+TTTTTTTTTTT  TTTTTT        "           "          TTTTTTTTTTTTTT
+TTTTTTTTTTTTTTT"                               "TTTTTTTTTTTTTTTT
+TTTTTTTTTTTT                                  "TTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTiTT                            TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTT"                             TTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTT"        "                        ""TTTTTTTTTTTTT
+TTTTTTTTTTTTTT                    "                ""   TTTTTTTT
+TTTTTTTTTTTT""                                                 3
+TTTTTTTTTTTTTTTT   TTT               TTTTT      TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTi      """"TTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+<splitter>
+{\
+' ':{'type':'Block', 'name':'GROUND', 'text':'There is nothing here.'},\
+'T':{'type':'Block', 'name':'TREE', 'text':'This is a tree.', 'solid':True, 'char':unichr(9035)},\
+'"':{'type':'Block', 'name':'FERN', 'text':'You look at the fern and feel happy.'},\
+'O':{'type':'Well',  'name':'WELL', 'text':'Well, well, well...', 'solid':True},\
+'[':{'type':'Block', 'name':'HOUSE', 'text':'You live here.', 'solid':True},\
+']':'[',\
+'o':'[',\
+'.':{'type':'Block', 'name':'PATH', 'text':'The one true path.'},\
+'1':{'type':'Exit',  'name':'DOOR', 'text':'Your front door. Inside is your house.', 'warpTo':'house1', 'warpName':'area1Exit1', 'char':'='},\
+'2':{'type':'Enter', 'name':'enter1', 'warpFrom':'house1Exit1', 'underChar':'.'},\
+'3':{'type':'Edge',  'name':'area1EastEdge1', 'warpTo':'area2', 'warpFrom':'area2WestEdge1', 'warpName':'area1EastEdge1'},\
+'4':{'type':'Exit',  'name':'DOOR', 'text':'Your front door. Inside is your house.', 'warpTo':'house1', 'warpName':'area1Exit2', 'char':'='},\
+'5':{'type':'Enter', 'name':'enter1', 'warpFrom':'house1Exit2', 'underChar':'.'},\
+'i':{'type':'Item',  'name':'ROPE', 'text':'A length of rope.', 'value':5, 'char':unichr(8506)},\
+'j':{'type':'Weapon','name':'SCIMITAR OF KICKASS BADASS AWESOMENESS AND STUFF', 'text':'A badass sword.', 'value':50, 'char':unichr(10973)},\
+'d':{'type':'Box',   'name':'DUDE', 'text':'Some guy.', 'char':unichr(9863)},\
+}
+<splitter>
+{\
+}

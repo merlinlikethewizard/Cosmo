@@ -1,0 +1,57 @@
+Field
+<splitter>
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT2TTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT      "TTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT               TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTT"        d    ""   TTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTT"         d          TTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTT            d           TTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTT                d             "TTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTT""             ""  d              "TTTTTTTTTTT
+TTTTTTTTTTTTTTT        "             d"             "TTTTTTTTTTT
+TTTTTTTTTTTTT                        d               TTTTTTTTTTT
+TTTTTTTTTTT ""                       d             TTTTTTTTTTTTT
+TTTTTTTTTT                                         TTTTTTTTTTTTT
+TTTTTTTTTT                                           TTTTTTTTTTT
+TTTTTTTTT               "                         "   TTTTTTTTTT
+TTTTTTTTTT                                "           TTTTTTTTTT
+TTTTTTT                                               TTTTTTTTTT
+TTT" TTTT    "                                        TTTTTTTTTT
+TTT"                 "                "              TTTTTTTTTTT
+TT                  ""              ""            "  TTTTTTTTTTT
+TTT ""                              "              TTTTTTTTTTTTT
+TTTTTTT                                         TTTTTTTTTTTTTTTT
+TTTTTTT                                              TTTTTTTTTTT
+TTTTTT      "                                          TTTTTTTTT
+TTTTT                                            "       TTTTTTT
+TTTTT                 "              "                  TTTTTTTT
+TTTTTT               " "                           TTTTTTTTTTTTT
+TTTTTTT""                                       TTTTTTTTTTTTTTTT
+TTTTTTTTT"                                  "TTTTT"""    TTTTTTT
+TTTTTTT                                      "TT " ""  i  TTTTTT
+TTTTTTTT                           "           " "" TTT "TTTTTTT
+TTTT                                              """"TTTTTTTTTT
+TT  "               "                         """"""""" TTTTTTTT
+TTT       ""                                """ """""  TTTTTTTTT
+TT                                           """"""""" "TTTTTTTT
+1                                        " """ """"" ""TTTTTTTTT
+TTTTTT                       ""       """ TT "" """"""""TTTTTTTT
+TTTTTTTTTT     "                   """"""TTTT """""  TTTTTTTTTTT
+TTTTTTTTTTTTTT    """           ""  ""  """TTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTT    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+<splitter>
+{\
+' ':{'type':'Block', 'name':'GROUND',        'text':'There is nothing here.'},\
+'T':{'type':'Block', 'name':'TREE',          'text':'This is a tree.', 'solid':True, 'char':unichr(9035)},\
+'1':{'type':'Edge',   'name':'area2WestEdge1',        'text':'There is nothing here.', 'warpTo':'area1',  'warpFrom':'area1EastEdge1', 'warpName':'area2WestEdge1'},\
+'2':{'type':'Edge',   'name':'area2NorthEdge1',        'text':'There is nothing here.', 'warpTo':'area3',  'warpFrom':'area3SouthEdge1', 'warpName':'area2NorthEdge1'},\
+'3':{'type':'Edge',   'name':'area2WestEdge2',        'text':'There is nothing here.', 'warpTo':'area1',  'warpFrom':'area1EastEdge2', 'warpName':'area2WestEdge2'},\
+'"':{'type':'Block', 'name':'FERN',          'text':'You look at the fern and feel happy.'},\
+'i':{'type':'Item',   'name':'BOOK OF TRUTHS','text':'It holds mysterious properties.', 'stackable':False, 'char':unichr(9707)},\
+'d':{'type':'Box',   'name':'DUDE', 'text':'Some guy.', 'char':unichr(9863)},\
+}
+<splitter>
+{\
+}
