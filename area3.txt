@@ -1,0 +1,24 @@
+Field Alcove
+<splitter>
+TTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTT      "  TTTTTTTT
+TTTTTT               TTTTTT
+TTTTT "           ""  TTTTT
+TTTT         i       TTTTTT
+TTTTT   "           "TTTTTT
+TTTTTT         "   TTTTTTTT
+TTTTTTTTT       TTTTTTTTTTT
+TTTTTTTTTTTT  TTTTTTTTTTTTT
+TTTTTTTTTTTTT1TTTTTTTTTTTTT
+<splitter>
+{\
+' ':{'type':'Block', 'name':'GROUND', 'text':'There is nothing here.'},\
+'T':{'type':'Block', 'name':'TREE', 'text':'This is a tree.', 'solid':True, 'char':unichr(9035)},\
+'"':{'type':'Block', 'name':'FERN', 'text':'You look at the fern and feel happy.'},\
+'1':{'type':'Edge', 'name':'area3SouthEdge1', 'text':'There is nothing here.', 'warpTo':'area2', 'warpFrom':'area2NorthEdge1', 'warpName':'area3SouthEdge1'},\
+'i':{'type':'PortalGun', 'name':'HANDHELD PORTAL DEVICE', 'text':'For science.', 'char':unichr(172)},\
+}
+<splitter>
+{\
+}

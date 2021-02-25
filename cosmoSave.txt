@@ -1,0 +1,3 @@
+xpos: 32
+ypos: 11
+area: area1
